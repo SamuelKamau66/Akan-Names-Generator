@@ -27,3 +27,30 @@ function submit(){
   {
      alert("invalid date");
   }
+  else if (Math.round(result)==1 && gender==='male')
+  {
+    document.getElementById("display").innerHTML =("you were born on Monday ,your akan name is "+ boyNames[1]);
+  }
+  else if (Math.round(result)==2 && gender==='male')
+  {
+    document.getElementById("display").innerHTML =("you were born on Tuesday ,your akan name is " +boyNames[2]);
+  }
+  else if (Math.round(result)==3 && gender==='male' )
+  {
+    document.getElementById("display").innerHTML =("you were born on Wednesday ,your akan name is "+ boyNames[3]);
+  }
+  else if (Math.round(result)==4 && gender==='male')
+  {
+    document.getElementById("display").innerHTML = ("you were born on Thursday,your akan name is "+ boyNames[4]);
+  }
+  else if (Math.round(result)==5 && gender==='male')
+  {
+    document.getElementById("display").innerHTML = ("you were born on Friday,your akan name is "+ boyNames[5]);
+  }
+  else if (Math.round(result)==6 && gender==='male')
+  {
+    document.getElementById("display").innerHTML = ("you were born on Saturday,your akan name is "+ boyNames[6]);
+  }
+  else if (Math.round(result)==0 && gender==='male')
+  {
+    document.getElementById("display").innerHTML = ("you were born on Sunday,your akan name is "+ boyNames[0]);
