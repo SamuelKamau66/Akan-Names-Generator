@@ -19,3 +19,11 @@ function submit(){
   {
      var gender='female';
   }
+  if (mm <1  || mm>12 || mm==2 && dd>29)
+  {
+     alert("invalid month");
+  }
+  else if( dd< 1 || dd>31)
+  {
+     alert("invalid date");
+  }
